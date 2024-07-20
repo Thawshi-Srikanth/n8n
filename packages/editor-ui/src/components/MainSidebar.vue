@@ -241,6 +241,7 @@ export default defineComponent({
 					customIconSize: 'medium',
 					position: 'bottom',
 					route: { to: { name: VIEWS.VARIABLES } },
+					available: false,
 				},
 				{
 					id: 'executions',
@@ -254,6 +255,7 @@ export default defineComponent({
 					icon: 'question',
 					label: this.$locale.baseText('mainSidebar.help'),
 					position: 'bottom',
+					available: false,
 					children: [
 						{
 							id: 'quickstart',
